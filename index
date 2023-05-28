@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTELOG</title>
+    <style>
+        body{
+            background:url(file:///C:/Users/Hp/Downloads/ac54a128942c750799c2c1fe144d2467.jpg);
+            background-size: 2000px;
+            background-repeat: no-repeat;
+        }
+        #id1{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+            padding-left: 30%;
+        }
+        nav{
+            border:2px solid black;
+            border-radius: 30px;
+            font-size: 40px;
+            background-color: rgb(18, 17, 17);
+            height:40px;
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
+        a:hover{   
+            text-shadow: whitesmoke;
+        }
+        #form{
+            position: absolute;
+            top: 60px;
+            background-color: rgb(117, 7, 129);
+            color:white;
+            border:5px solid black;
+            margin:50px;
+            width:500px;
+            height:600px;
+            /* float:right; */
+            position: absolute;
+            right: 30px;
+            margin-top: 100px;
+            margin-right: 10px;  
+        }
+        .form1{
+            height:60px;
+            width:300px;
+            border:3px solid black;
+            margin-left:50px;
+            margin-top: 30px;
+        }
+        #id4{
+            height:90px;
+            width:300px;
+        }
+        .button{
+            position: relative;
+            left: 175px;
+            top: 10px;
+            width: 50px;
+            height: 30px;
+            border: 1px solid black;
+        }
+        .button button{
+            width: 50px;
+            height: 30px;
+        }
+        .button button a{
+            color: black;
+        }
+        #register{
+            font-size: 40px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            float:right;
+            padding-right: 100px;
+            /* border: 1px solid black; */
+            height: 100px;
+            position: absolute;
+            right: 50px;
+        }
+        /* #id5{ */
+        /* } */
+    </style>
+</head>
+<body>
+    <!-- <nav>&nbsp;&nbsp;
+        <i style='font-size:24px' class='fas'>&#xf0ae;</i>
+        <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:\Users\Hp\Desktop\New folder\class work\addnote.html">ADD NOTES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:\Users\Hp\Desktop\New folder\class work\oldnotes.html">OLD NOTES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">PLAN DAYS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </nav> -->
+    <div class="container" id="id1">
+        <!-- <h1>NOTELOG</h1> -->
+    </div>
+    <div id="register">
+        <h2>Register</h2>
+    </div>
+    <form id="form" action="welcome.php" method="post">
+        <input type="text" placeholder="username" id="1" class="form1" required>
+        <br>
+        <input type="password" placeholder="password" id="2" class="form1" required>
+        <br>
+        <input type="email" placeholder="email" id="3" class="form1" required>
+        <br>
+        <input type="feedback" placeholder="what u want to plan" id="id4" class="form1" required>
+        <br>
+        <!-- <input type="submit" type="submit" class="form1" id="id5" required> -->
+        <div class="button">
+            <button id="id5">
+            <!-- <a href="C:\Users\Hp\Desktop\New folder\class work\addnote.html">submit</a> -->
+            <!-- <a href="C:\Users\Hp\Desktop\New folder\class work\addnote.html">submit</a> -->
+            <a href="C:\Users\Hp\Desktop\New folder\project_fee\addnotes.html">submit</a>
+        </button>
+        </div>
+    </form>
+</body>
+</html>
